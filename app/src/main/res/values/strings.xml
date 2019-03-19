@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple App</string>
+    <string name="fish_are_friends_not_food">Fish Are Friends, Not Food</string>
+    <string name="change">Say Hi</string>
+    <string name="clear">Clear</string>
+    <string name="type_your_name_here">Type your name here</string>
+</resources>
