@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             if(editText.text.trim().isNotEmpty()) {
                 textView.text = "Hello, ${editText.text}!"
             } else {
-                textView.text = "TYPE SOMETHING, HEATHEN!"
+                textView.text = getString(R.string.type_something_heathen)
             }
         }
     }
