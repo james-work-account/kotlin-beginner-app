@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         change.setOnClickListener {
-            if(editText.text.trim().isNotEmpty()) {
+            if(editText.text.trim().isNotEmpty()) {""
                 textView.text = "Hello, ${editText.text}!"
             } else {
                 textView.text = getString(R.string.type_something_heathen)
